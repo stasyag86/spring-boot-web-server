@@ -5,10 +5,10 @@ I have used ConcurrentHashMap to store the stations, which is thread safe, so in
 While each time we do insert or update it increments a synchronized counter in order to retrieve the summary within O(1) too.
 
 The API works like this:
-POST 	localhost:8080/evbox/chargingSessions	(with response body)
-PUT 	localhost:8080/evbox/chargingSessions/{id}
-GET 	localhost:8080/evbox/chargingSessions
-GET 	localhost:8080/evbox/chargingSessions/summary
+POST 	localhost:8080/evbox/chargingSessions	(with response body)          
+PUT 	localhost:8080/evbox/chargingSessions/{id}               
+GET 	localhost:8080/evbox/chargingSessions                 
+GET 	localhost:8080/evbox/chargingSessions/summary          
 
 In order to run the application, run EvboxWebServiceApplication.java as Java Application in your IDE
 
