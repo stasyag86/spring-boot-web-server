@@ -11,7 +11,7 @@ GET 	localhost:8080/evbox/chargingSessions
 GET 	localhost:8080/evbox/chargingSessions/summary          
 
 In order to run the application, run EvboxWebServiceApplication.java as Java Application in your IDE
-or run those commands inside your working directory: 
-  mvn install  
+or run those commands inside your working directory:   
+mvn install  
 mvn spring-boot:run
 
